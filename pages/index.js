@@ -392,7 +392,7 @@ export default function Home() {
       } else if (!presaleStarted) {
         return (
           <div>
-            <div className="">Presale hasn't started!</div>
+            <div className="">Presale has not started yet!</div>
           </div>
         );
       } // If presale started, but hasn't ended yet, allow for minting during the presale period
